@@ -1,0 +1,21 @@
+server:
+  port: 8046
+spring:
+  profiles:
+    active: dev
+  application:
+    name: @pom.artifactId@
+  rabbitmq:
+    host: specialtybasket-mq-rabbit
+    port: 5672
+    username: admin
+    password: admin
+  boot:
+    admin:
+      username: admim
+      password: admin
+security:
+  user:
+    name: admin
+    password: admin
+
